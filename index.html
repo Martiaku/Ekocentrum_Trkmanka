@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekocentrum Trkmanka | Velké Pavlovice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGACE -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Ekocentrum <strong>Trkmanka</strong></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <!-- ROZBALOVACÍ MENU - VZDĚLÁVÁNÍ -->
+                <div class="dropdown">
+                    <a href="#vzdelavani" class="dropdown-toggle" data-cz="Vzdělávání ▾" data-en="Education ▾">Vzdělávání ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="#enviromentalni-program" data-cz="Enviromentální program" data-en="Environmental Program">Enviromentální program</a>
+                        <a href="#skola_v_prirode" data-cz="Škola v přírodě" data-en="Outdoor school trip">Škola v přírodě</a>
+                        <a href="#primestske-tabory" data-cz="Příměstský tábor" data-en="Day camp">Příměstský tábor</a>
+                    </div>
+                </div>
+                <a href="#ubytovani" data-cz="Ubytování" data-en="Accommodation">Ubytování</a>
+                <a href="#pronajem" data-cz="Pronájem" data-en="Rental">Pronájem</a>
+                <a href="#volnocasove-aktivity" data-cz="Volnočasové aktivity" data-en="Leisure Activities">Volnočasové aktivity</a>
+                <a href="#sokolovna" data-cz="Sokolovna" data-en="Sokol Hall">Sokolovna</a>
+                
+                <!-- ROZBALOVACÍ MENU - FOTOGRAFIE -->
+                <div class="dropdown">
+                    <a href="#fotografie" class="dropdown-toggle" data-cz="Fotografie ▾" data-en="Images ▾">Fotografie ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="foto_ubytovani.html" data-cz="Ekocentrum" data-en="Eco-center">Ekocentrum</a>
+                        <a href="foto_ubytovani.html" data-cz="Ubytování" data-en="Accommodation">Ubytování</a>
+                        <a href="foto_ubytovani.html" data-cz="Sokolovna" data-en="Sokol Hall">Sokolovna</a>
+                        <a href="foto_ubytovani.html" data-cz="Akce a svatby" data-en="Events & Weddings">Akce a svatby</a>
+                    </div>
+                </div>
+
+                <a href="#kontakt" data-cz="Kontakt" data-en="Contact">Kontakt</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle-btn" title="Přepnout tmavý/světlý režim">🌙</button>
+                <div class="lang-switch">
+                    <button id="lang-cz" class="lang-btn active">CZ</button>
+                    <span class="divider">|</span>
+                    <button id="lang-en" class="lang-btn">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEKCE ENVIROMENTÁLNÍ PROGRAM -->
+    <section id="enviromentalni-program" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-cz="Enviromentální program" data-en="Environmental Program">Enviromentální program</h2>
+                <p data-cz="Hledáte inspirativní výlet pro svou školu či školku? Zveme vás do našeho ekocentra v srdci jižní Moravy! Nabízíme zábavně‑naučné programy zaměřené na přírodu." data-en="Looking for an inspiring trip for your school or kindergarten? We invite you to our eco-center in the heart of South Moravia! We offer fun and educational nature programs.">Hledáte inspirativní výlet pro svou školu či školku? Zveme vás do našeho ekocentra v srdci jižní Moravy! Nabízíme zábavně‑naučné programy zaměřené na přírodu.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="programs-container">
+                    <h3 data-cz="Nabídka výukových programů" data-en="Offer of Educational Programs">Nabídka výukových programů</h3>
+                    <ul class="check-list-2col">
+                        <li data-cz="Voda pro život" data-en="Water for Life">Voda pro život</li>
+                        <li data-cz="Cesta chleba na náš stůl" data-en="The Journey of Bread to Our Table">Cesta chleba na náš stůl</li>
+                        <li data-cz="Ježek (živé zvíře)" data-en="Hedgehog (live animal)">Ježek (živé zvíře)</li>
+                        <li data-cz="Strom" data-en="The Tree">Strom</li>
+                        <li data-cz="Netopýr" data-en="The Bat">Netopýr</li>
+                        <li data-cz="Život na louce" data-en="Life in the Meadow">Život na louce</li>
+                        <li data-cz="Ekosystém les" data-en="Forest Ecosystem">Ekosystém les</li>
+                        <li data-cz="Živly přírody" data-en="Elements of Nature">Živly přírody</li>
+                        <li data-cz="Příběhy Afriky" data-en="Stories of Africa">Příběhy Afriky</li>
+                        <li data-cz="Dvoreček" data-en="The Farmyard">Dvoreček</li>
+                        <li data-cz="Zvířátka naší Zoo" data-en="Animals of Our Zoo">Zvířátka naší Zoo</li>
+                        <li data-cz="Veverka (živé zvíře)" data-en="Squirrel (live animal)">Veverka (živé zvíře)</li>
+                        <li data-cz="Had (živé zvíře)" data-en="Snake (live animal)">Had (živé zvíře)</li>
+                        <li data-cz="Králík (živé zvíře)" data-en="Rabbit (live animal)">Králík (živé zvíře)</li>
+                        <li data-cz="Výuka v CHKO Pálava" data-en="Education in the Pálava PLA">Výuka v CHKO Pálava</li>
+                    </ul>
+                </div>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80" alt="Enviromentální program" class="img-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ŠKOLA V PŘÍRODĚ -->
+    <section id="skola_v_prirode" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-cz="Škola v přírodě" data-en="Outdoor School Trip">Škola v přírodě</h2>
+                <p data-cz="Interaktivní program plný poznávání, objevování a dobrodružství v přírodě." data-en="An interactive program full of exploration, discovery, and outdoor adventures.">Interaktivní program plný poznávání, objevování a dobrodružství v přírodě.</p>
+            </div>
+
+            <div class="grid-2 mb-4">
+                <div>
+                    <h3 class="mb-3" data-cz="Objevujeme přírodu" data-en="Discovering Nature">Objevujeme přírodu</h3>
+                    <p class="mb-3" data-cz="Naše aktivity nejsou omezeny pouze na Velké Pavlovice – rozšiřujeme obzory a představujeme zajímavé lokality v širším okolí. Jednou z našich oblíbených je malebné pohoří Pálava, známé svou jedinečnou biodiverzitou, fascinující geologií a krásnými výhledy." data-en="Our activities are not limited to Velké Pavlovice – we broaden horizons and introduce interesting locations in the wider surroundings. One of our favorites is the picturesque Pálava hills, known for unique biodiversity, fascinating geology, and beautiful views.">
+                        Naše aktivity nejsou omezeny pouze na Velké Pavlovice – rozšiřujeme obzory a představujeme zajímavé lokality v širším okolí. Jednou z našich oblíbených je malebné pohoří Pálava, známé svou jedinečnou biodiverzitou, fascinující geologií a krásnými výhledy.
+                    </p>
+                    <p data-cz="Děti u nás získávají nejen zábavu, ale také hlubší vzdělání a respekt k přírodě prostřednictvím her, průzkumů a experimentů." data-en="Children gain not only fun, but also deeper education and respect for nature through games, research, and experiments.">
+                        Děti u nás získávají nejen zábavu, ale také hlubší vzdělání a respekt k přírodě prostřednictvím her, průzkumů a experimentů.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/skola_v_prirode.png" alt="Univerzální foto" class="img-placeholter" style="height: 320px;">
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="card-content">
+                    <h3 class="mb-2" data-cz="⛰️ Výpravy na Pálavu" data-en="⛰️ Trips to Pálava">⛰️ Výpravy na Pálavu</h3>
+                    <p data-cz="Objevování tajemství chráněné krajinné oblasti, pozorování flóry, fauny a zažívání nezapomenutelných dobrodružství v náručí moravské přírody." data-en="Discovering the secrets of the protected landscape area, observing flora, fauna, and experiencing unforgettable adventures in Moravian nature.">
+                        Objevování tajemství chráněné krajinné oblasti, pozorování flóry, fauny a zažívání nezapomenutelných dobrodružství v náručí moravské přírody.
+                    </p>
+                </div>
+                <div class="card-content">
+                    <h3 class="mb-2" data-cz="💧 Program Voda" data-en="💧 Water Program">💧 Program Voda</h3>
+                    <p data-cz="Výzkum života ve vodě a přilehlých rybnících. Děti se formou pokusů dozvídají o vodních organismech, ekosystémech a významu čisté vody." data-en="Research of life in water and adjacent ponds. Through experiments, children learn about water organisms, ecosystems, and the importance of clean water.">
+                        Výzkum života ve vodě a přilehlých rybnících. Děti se formou pokusů dozvídají o vodních organismech, ekosystémech a významu čisté vody.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PŘÍMĚSTSKÉ TÁBORY -->
+    <section id="primestske-tabory" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-cz="Příměstské tábory" data-en="Day Camps">Příměstské tábory</h2>
+                <p data-cz="Zažijte s námi prázdniny plné dobrodružství, objevování a zábavy v přírodě." data-en="Experience holidays full of adventure, discovery, and fun in nature with us.">Zažijte s námi prázdniny plné dobrodružství, objevování a zábavy v přírodě.</p>
+                
+                <div class="price-includes mt-4">
+                    <h3 class="h5 mb-2" data-cz="Cena zahrnuje:" data-en="Price includes:">Cena zahrnuje:</h3>
+                    <ul class="check-list price-list">
+                        <li data-cz="dopolední svačinku, oběd, odpolední svačinku, celodenní pitný režim" data-en="morning snack, lunch, afternoon snack, all-day drinking regime">🍽️ dopolední svačinku, oběd, odpolední svačinku, celodenní pitný režim</li>
+                        <li data-cz="pestrý a zábavný program, pohybové aktivity, materiál a pomůcky" data-en="varied and fun program, physical activities, materials and supplies">🎨 pestrý a zábavný program, pohybové aktivity, materiál a pomůcky</li>
+                        <li data-cz="kontakt s přírodou, setkávání s různými druhy zvířátek" data-en="contact with nature, meeting various kinds of animals">🦊 kontakt s přírodou, setkávání s různými druhy zvířátek</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <!-- MLADÝ PŘÍRODOVĚDEC Z TRKMANKY -->
+                <div class="feature-card">
+                    <div class="card-img-wrapper">
+                        <img src="images/univerzalni_fotka.png" alt="Mladý přírodovědec z Trkmanky" class="card-img">
+                    </div>
+                    <h3 class="mb-2" data-cz="Mladý přírodovědec z Trkmanky" data-en="Young Naturalist of Trkmanka">Mladý přírodovědec z Trkmanky</h3>
+                    <p class="mb-3 px-3" data-cz="Prozkoumej tajemství místní přírody, života u vody a vyzkoušej si pokusy v ekocentru." data-en="Explore the secrets of local nature, aquatic life, and try out experiments in the eco-center.">
+                        Prozkoumej tajemství místní přírody, života u vody a vyzkoušej si pokusy v ekocentru.
+                    </p>
+                    <ul class="check-list px-3 mb-4 camp-list">
+                        <li>👶 <strong data-cz="Věk dětí:" data-en="Age:">Věk dětí:</strong> 6–11 let</li>
+                        <li>🎨 <strong data-cz="Téma:" data-en="Theme:">Téma:</strong> Ekologie a zážitková věda</li>
+                        <li>📅 <strong data-cz="Termín:" data-en="Date:">Termín:</strong> 13. 7. – 17. 7. 2026</li>
+                        <li>🪑 <strong data-cz="Volná místa:" data-en="Available spots:">Volná místa:</strong> 
+                                <span class="badge badge-warning" data-cz="Zbývají 4 místa" data-en="4 spots left">Zbývají 4 místa</span></li>
+                        <li>💰 <strong data-cz="Cena:" data-en="Price:">Cena:</strong> 2 800 Kč / dítě</li>
+                    </ul>
+                    <div class="card-btn-wrapper">
+                        <a href="#kontakt" class="btn btn-primary w-100" data-cz="Rezervovat tábor" data-en="Book Camp">Rezervovat tábor</a>
+                    </div>
+                </div>
+
+                <!-- EKO-TABOR: ŠIKOVNÉ RUČIČKY -->
+                <div class="feature-card">
+                    <div class="card-img-wrapper">
+                        <img src="images/univerzalni_fotka.png" alt="Univerzální foto" class="card-img">
+                    </div>
+                    <h3 class="mb-2" data-cz="Eko-tábor: Šikovné ručičky" data-en="Eco-Camp: Crafty Hands">Eko-tábor: Šikovné ručičky</h3>
+                    <p class="mb-3 px-3" data-cz="Tvořivý týden zaměřený na tvoření z přírodních materiálů, řemesla a pohyb venku." data-en="Creative week focused on crafting with natural materials, traditional crafts, and outdoor activities.">
+                        Tvořivý týden zaměřený na tvoření z přírodních materiálů, řemesla a pohyb venku.
+                    </p>
+                    <ul class="check-list px-3 mb-4 camp-list">
+                        <li>👶 <strong data-cz="Věk dětí:" data-en="Age:">Věk dětí:</strong> 8–14 let</li>
+                        <li>🎨 <strong data-cz="Téma:" data-en="Theme:">Téma:</strong> Řemesla, tvoření a udržitelnost</li>
+                        <li>📅 <strong data-cz="Termín:" data-en="Date:">Termín:</strong> 10. 8. – 14. 8. 2026</li>
+                        <li>🪑 <strong data-cz="Volná místa:" data-en="Available spots:">Volná místa:</strong> 
+                                <span class="badge badge-success" data-cz="Zbývá 8 míst" data-en="8 spots left">Zbývá 8 míst</span></li>
+                        <li>💰 <strong data-cz="Cena:" data-en="Price:">Cena:</strong> 2 950 Kč / dítě</li>
+                    </ul>
+                    <div class="card-btn-wrapper">
+                        <a href="#kontakt" class="btn btn-primary w-100" data-cz="Rezervovat tábor" data-en="Book Camp">Rezervovat tábor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCE UBYTOVÁNÍ -->
+    <section id="ubytovani" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge" data-cz="Pobyt v zámečku" data-en="Château Stay">Pobyt v zámečku</span>
+                <h2 data-cz="Ubytování v Ekocentru Trkmanka" data-en="Accommodation at Ekocentrum Trkmanka">Ubytování v Ekocentru Trkmanka</h2>
+                <p data-cz="Ceník platný od 1. 1. 2025" data-en="Price list valid from Jan 1, 2025">Ceník platný od 1. 1. 2025</p>
+            </div>
+
+            <!-- 1. HLAVNÍ BUDOVA - VLASTNÍ SOCIÁLNÍ ZAŘÍZENÍ -->
+            <div class="price-box mb-4">
+                <h3 data-cz="Hlavní budova – vlastní sociální zařízení" data-en="Main Building – Private Bathroom">Hlavní budova – vlastní sociální zařízení</h3>
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th data-cz="Pokoj (počet lůžek)" data-en="Room (beds)">Pokoj (počet lůžek)</th>
+                            <th data-cz="Cena osoba/noc" data-en="Price person/night">Cena osoba/noc</th>
+                            <th data-cz="Cena osoba/noc při obsazení 1 os." data-en="Price for single occupancy">Cena osoba/noc (1 osoba)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>
+                                    <a href="#" class="room-link" onclick="openGallery('A1', ['1A-3L_001.webp', '1A-3L_002.webp', '1A-3L_003.webp', '1A-3L_koupelna001.webp', '1A-3L_koupelna002.webp']); return false;">A1</a>
+                                </strong> - <span data-cz="Apartmán 1x 3L" data-en="Apartment 1x 3-bed">Apartmán 1x 3L</span> 
+                                <span class="badge-sm" data-cz="pokoj vhodný pro handicapované" data-en="accessible room">pokoj vhodný pro handicapované</span>
+                            </td>
+                            <td>600 Kč</td>
+                            <td>700 Kč</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>
+                                    <a href="#" class="room-link" onclick="openGallery('A2', ['2A-2L_001.jpg', '2A-2L_002.jpg', '2A-2L_003.jpg', '2A-2L_koupelna001.jpg', '2A-2L_koupelna002.jpg']); return false;">A2</a>
+                                </strong> - <span data-cz="Apartmán 1x 3L" data-en="Apartment 1x 3-bed">Apartmán 1x 3L</span>
+                            </td>
+                            <td>600 Kč</td>
+                            <td>700 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A3 - A4</strong> - <span data-cz="Studio 2x 2L" data-en="Studio 2x 2-bed">Studio 2x 2L</span></td>
+                            <td>600 Kč</td>
+                            <td>700 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A5</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>600 Kč</td>
+                            <td>700 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A6</strong> - <span data-cz="Pokoj 1x 1L" data-en="Room 1x 1-bed">Pokoj 1x 1L</span></td>
+                            <td>600 Kč</td>
+                            <td>700 Kč</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="discount-note mt-2" data-cz="Ubytování 3–4 noci sleva 50 Kč osoba/noc | Ubytování 5 a více nocí sleva 100 Kč osoba/noc" data-en="3–4 nights stay: 50 CZK discount/person/night | 5+ nights stay: 100 CZK discount/person/night">
+                    Ubytování 3–4 noci sleva 50 Kč osoba/noc <br>
+                    Ubytování 5 a více nocí sleva 100 Kč osoba/noc
+                </p>
+            </div>
+
+            <!-- 2. HLAVNÍ BUDOVA - SPOLEČNÉ SOCIÁLNÍ ZAŘÍZENÍ -->
+            <div class="price-box mb-4">
+                <h3 data-cz="Hlavní budova – společné sociální zařízení" data-en="Main Building – Shared Bathroom">Hlavní budova – společné sociální zařízení</h3>
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th data-cz="Pokoj (počet lůžek)" data-en="Room (beds)">Pokoj (počet lůžek)</th>
+                            <th data-cz="Cena osoba/noc" data-en="Price person/night">Cena osoba/noc</th>
+                            <th data-cz="Cena osoba/noc při obsazení 1 os." data-en="Price for single occupancy">Cena osoba/noc (1 osoba)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>A7</strong> - <span data-cz="Pokoj 1x 6L" data-en="Room 1x 6-bed">Pokoj 1x 6L</span></td>
+                            <td>400 Kč</td>
+                            <td>450 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A8</strong> - <span data-cz="Pokoj 1x 13L" data-en="Room 1x 13-bed">Pokoj 1x 13L</span></td>
+                            <td>400 Kč</td>
+                            <td>450 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>A9</strong> - <span data-cz="Pokoj 1x 13L" data-en="Room 1x 13-bed">Pokoj 1x 13L</span></td>
+                            <td>400 Kč</td>
+                            <td>450 Kč</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="discount-note mt-2" data-cz="Ubytování 3–4 noci sleva 50 Kč osoba/noc | Ubytování 5 a více nocí sleva 100 Kč osoba/noc" data-en="3–4 nights stay: 50 CZK discount/person/night | 5+ nights stay: 100 CZK discount/person/night">
+                    Ubytování 3–4 noci sleva 50 Kč osoba/noc <br>
+                    Ubytování 5 a více nocí sleva 100 Kč osoba/noc
+                </p>
+            </div>
+
+            <!-- 3. LETOHRÁDEK -->
+            <div class="price-box mb-4">
+                <h3 data-cz="Letohrádek" data-en="Summer House (Letohrádek)">Letohrádek</h3>
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th data-cz="Pokoj hotelového typu" data-en="Hotel type room">Pokoj hotelového typu</th>
+                            <th data-cz="Cena osoba/noc" data-en="Price person/night">Cena osoba/noc</th>
+                            <th data-cz="Cena osoba/noc při obsazení 1 os." data-en="Price for single occupancy">Cena osoba/noc (1 osoba)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>B1</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>B2</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>B3</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>B4</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong>B5</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span></td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>B6</strong> - <span data-cz="Pokoj 1x 2L" data-en="Room 1x 2-bed">Pokoj 1x 2L</span> 
+                                <span class="badge-sm" data-cz="pokoj vhodný pro handicapované" data-en="accessible room">pokoj vhodný pro handicapované</span>
+                            </td>
+                            <td>750 Kč</td>
+                            <td>850 Kč</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="discount-note mt-2" data-cz="Ubytování 3–4 noci sleva 50 Kč osoba/noc | Ubytování 5 a více nocí sleva 100 Kč osoba/noc" data-en="3–4 nights stay: 50 CZK discount/person/night | 5+ nights stay: 100 CZK discount/person/night">
+                    Ubytování 3–4 noci sleva 50 Kč osoba/noc <br>
+                    Ubytování 5 a více nocí sleva 100 Kč osoba/noc
+                </p>
+                <p class="mt-2" data-cz="Součástí ubytování v LETOHRÁDKU je společenská místnost s vybaveným kuchyňským koutem pro 12 osob." data-en="Letohrádek includes a common room with a fully equipped kitchenette for 12 people.">
+                    <em>Součástí ubytování v LETOHRÁDKU je společenská místnost s vybaveným kuchyňským koutem pro 12 osob.</em>
+                </p>
+            </div>
+
+            <!-- 4. DALŠÍ INFORMACE -->
+            <div class="card-content border-top pt-4">
+                <h3 data-cz="DALŠÍ INFORMACE" data-en="FURTHER INFORMATION">DALŠÍ INFORMACE</h3>
+                <ul class="check-list mt-2">
+                    <li data-cz="Podle vyhlášky města Velké Pavlovice č.4/2019 se k ceně ubytování bude přičítat ubytovací poplatek 25 Kč / os. / noc." data-en="According to decree No. 4/2019, a local stay fee of 25 CZK / person / night is added.">
+                        Podle vyhlášky města Velké Pavlovice č.4/2019 se k ceně ubytování bude přičítat ubytovací poplatek 25 Kč / os. / noc[cite: 5].
+                    </li>
+                    <li data-cz="Dítě do 3 let bez nároku na lůžko zdarma." data-en="Children under 3 without bed free of charge.">
+                        Dítě do 3 let bez nároku na lůžko zdarma.
+                    </li>
+                    <li data-cz="Dítě 3-12 let sleva 150 Kč." data-en="Children 3-12 years discount 150 CZK.">
+                        Dítě 3-12 let sleva 150 Kč.
+                    </li>
+                    <li data-cz="Snídaně k ubytování poskytujeme od skupiny 24 osob po předchozí domluvě. Rautová snídaně 180 Kč/osobu (při bezlepkové, veganské stravě příplatek 20 Kč)." data-en="We provide breakfast for groups of 24 or more people upon prior arrangement. Buffet breakfast: 180 CZK per person (a 20 CZK surcharge applies for gluten-free or vegan options).">
+                        Snídaně k ubytování poskytujeme od skupiny 24 osob po předchozí domluvě. Rautová snídaně 180 Kč/osobu (při bezlepkové, veganské stravě příplatek 20 Kč)
+                    </li>
+                    <li>
+                        <a href="podminky_ubytovani.html" target="_blank" rel="noopener noreferrer" data-cz="Podmínky ubytování" data-en="Accommodation Policy">Podmínky ubytování</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCE PRONÁJEM PROSTOR -->
+    <section id="pronajem" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge" data-cz="Prostory pro akce" data-en="Event Spaces">Prostory pro akce</span>
+                <h2 data-cz="Pronájem prostor" data-en="Space Rental">Pronájem prostor</h2>
+                <p class="discount-note mt-2" data-cz="Ceník pronájmů prostor od 1. 4. 2021" data-en="Space rental price list from Apr 1, 2021">Ceník pronájmů prostor od 1. 4. 2021</p>
+            </div>
+
+            <div class="grid-2 mb-4">
+                <div class="price-box">
+                    <h3 data-cz="Nabídka pro firmy a veřejnost" data-en="Offer for Companies and Public">Nabídka pro firmy a veřejnost</h3>
+                    <p class="mt-2" data-cz="Nabízíme organizaci enviromentálně zaměřených konferencí, seminářů, školení, porad, vč. zajištění občerstvení (snidaně, coffee breaky, obědy, večeře, rauty, řízené degustace vína)." data-en="We offer organization of environmentally focused conferences, seminars, training sessions, meetings, incl. catering (breakfast, coffee breaks, lunches, dinners, banquets, guided wine tastings).">
+                        Nabízíme organizaci enviromentálně zaměřených konferencí, seminářů, školení, porad, vč. zajištění občerstvení (snidaně, coffee breaky, obědy, večeře, rauty, řízené degustace vína).
+                    </p>
+                </div>
+
+                <div class="price-box">
+                    <h3 data-cz="Nabídka pro rodiny s dětmi" data-en="Offer for Families with Children">Nabídka pro rodiny s dětmi</h3>
+                    <p class="mt-2" data-cz="Dále víkendové pobyty, pobyty v přírodě, vč. environmentálních programů zaměřených na poznávání našeho regionu." data-en="Furthermore, weekend stays, nature stays, incl. environmental programs focused on exploring our region.">
+                        Dále víkendové pobyty, pobyty v přírodě, vč. environmentálních programů zaměřených na poznávání našeho regionu.
+                    </p>
+                </div>
+            </div>
+
+            <div class="price-box mb-4">
+                <h3 data-cz="Pronájmy prostor vč. audio a video techniky" data-en="Space Rentals incl. Audio and Video Equipment">Pronájmy prostor vč. audio a video techniky</h3>
+                <p class="mt-2" data-cz="Cena pronájmu se sjednává individuálně podle času, doby trvání a aktuální obsazenosti budovy." data-en="The rental price is negotiated individually according to time, duration, and current building occupancy.">
+                    Cena pronájmu se sjednává individuálně podle času, doby trvání a aktuální obsazenosti budovy.
+                </p>
+            </div>
+
+            <div class="price-box mb-4">
+                <h3 data-cz="K pronájmu nabízíme tyto prostory:" data-en="We offer the following spaces for rent:">K pronájmu nabízíme tyto prostory:</h3>
+                <ul class="check-list mt-2">
+                    <li data-cz="Pronájem sálu (konference, seminář, výstava, koncert) max. 100 osob divadelní uspořádání" data-en="Hall rental (conference, seminar, exhibition, concert) max. 100 people theater seating">
+                        Pronájem sálu (konference, seminář, výstava, koncert) max. 100 osob divadelní uspořádání
+                    </li>
+                    <li data-cz="Pronájem studovny (seminář, výstava, workshop) max. 70 osob divadelní uspořádání" data-en="Study room rental (seminar, exhibition, workshop) max. 70 people theater seating">
+                        Pronájem studovny (seminář, výstava, workshop) max. 70 osob divadelní uspořádání
+                    </li>
+                    <li data-cz="Pronájem učebny A (dataprojektor, plátno, ozvučení, flipchart, pevné PC) max. 40 osob divadelní uspořádání" data-en="Classroom A rental (data projector, screen, sound system, flipchart, fixed PC) max. 40 people theater seating">
+                        Pronájem učebny A (dataprojektor, plátno, ozvučení, flipchart, pevné PC) max. 40 osob divadelní uspořádání
+                    </li>
+                    <li data-cz="Pronájem učebny B (porada, workshop)" data-en="Classroom B rental (meeting, workshop)">
+                        Pronájem učebny B (porada, workshop)
+                    </li>
+                    <li data-cz="Pronájem jídelny (výtvarné dílny, ostatních prostor individ. recepce ...)" data-en="Dining room rental (art workshops, other spaces individ. reception ...)">
+                        Pronájem jídelny (výtvarné dílny, ostatních prostor individ. recepce ...)
+                    </li>
+                    <li data-cz="WiFi v celém objektu" data-en="WiFi throughout the building">
+                        WiFi v celém objektu
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-content border-top pt-4">
+                <p class="mb-2">
+                    <span data-cz="Ceník pronájmů prostor na vyžádání " data-en="Space rental price list upon request">Ceník pronájmů prostor na vyžádání </span>
+                    <a href="#kontakt" class="contact-inline-link">
+                        <strong data-cz="ZDE" data-en="HERE">ZDE</strong>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCE VOLNOČASOVÉ AKTIVITY -->
+    <section id="volnocasove-aktivity" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge" data-cz="Aktivní odpočinek" data-en="Active Leisure">Aktivní odpočinek</span>
+                <h2 data-cz="Volnočasové aktivity" data-en="Leisure Activities">Volnočasové aktivity</h2>
+            </div>
+
+            <div class="grid-2">
+                <div class="card-content">
+                    <h3 data-cz="Přehled volnočasových aktivit a kurzů" data-en="Overview of Leisure Activities & Courses">Přehled volnočasových aktivit a kurzů</h3>
+                    <ul class="check-list-2col">
+                        <li>
+                            <a href="#" class="room-link" onclick="openActivityModal('iwana'); return false;" data-cz="IWANA ART kresby, malby, výtvarné kurzy" data-en="IWANA ART drawings, paintings, art courses">
+                                IWANA ART kresby, malby, výtvarné kurzy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="room-link" onclick="openActivityModal('keramika'); return false;" data-cz="KERAMIKA při Ekocentru Trkmanka" data-en="CERAMICS at Ekocentrum Trkmanka">
+                                KERAMIKA při Ekocentru Trkmanka
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="room-link" onclick="openActivityModal('kmenvlku'); return false;" data-cz="KMEN VLKŮ na Ekocentru Trkmanka" data-en="WOLF TRIBE (Kmen Vlků) at Ekocentrum Trkmanka">
+                                KMEN VLKŮ na Ekocentru Trkmanka
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="room-link" onclick="openActivityModal('joga'); return false;" data-cz="JÓGA - Aneta Pavliňáková - na Ekocentru Trkmanka" data-en="YOGA - Aneta Pavliňáková - at Ekocentrum Trkmanka">
+                                JÓGA - Aneta Pavliňáková - na Ekocentru Trkmanka
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="room-link" onclick="openActivityModal('ncod'); return false;" data-cz="Taneční studio N. C. O. D. na Ekocentru Trkmanka" data-en="Dance Studio N. C. O. D. at Ekocentrum Trkmanka">
+                                Taneční studio N. C. O. D. na Ekocentru Trkmanka
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-box">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80" alt="Volnočasové aktivity" class="img-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEKCE SOKOLOVNA -->
+    <section id="sokolovna" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge" data-cz="Pronájem prostor" data-en="Space Rental">Pronájem prostor</span>
+                <h2 data-cz="Sokolovna Velké Pavlovice" data-en="Sokol Hall Velké Pavlovice">Sokolovna Velké Pavlovice</h2>
+                <p data-cz="Nabídka pronájmu na semináře, společenské akce, svatby." data-en="Rental offer for seminars, social events, weddings.">Nabídka pronájmu na semináře, společenské akce, svatby.</p>
+                <p class="small-text mt-2"><strong data-cz="Provozovna:" data-en="Premises:">Provozovna:</strong> Sokolovna, Hlavní 583/1, 691 06 Velké Pavlovice</p>
+            </div>
+
+            <div class="grid-2 mb-4">
+                <div class="image-box">
+                    <img src="images/sokolovna-budova.webp" alt="Sokolovna Velké Pavlovice" class="img-placeholder">
+                </div>
+                <div class="card-content">
+                    <h3 data-cz="Ceník krátkodobých pronájmů nebytových prostor SOKOLOVNY" data-en="Price List for Short-Term Rentals of SOKOLOVNA Spaces">Ceník krátkodobých pronájmů nebytových prostor SOKOLOVNY</h3>
+                    <p class="discount-note mb-3" data-cz="Ceník je platný od 1. 1. 2025" data-en="Price list valid from Jan 1, 2025">Ceník je platný od 1. 1. 2025</p>
+
+                    <table class="price-table">
+                        <thead>
+                            <tr>
+                                <th data-cz="Nájemce / Účel" data-en="Tenant / Purpose">Nájemce / Účel</th>
+                                <th data-cz="Celoroční sezóna pronájem" data-en="Year-round rental season">Celoroční sezóna</th>
+                                <th data-cz="Úhrada spotřebované energie" data-en="Energy consumption fee">Úhrada energií</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong data-cz="Město Velké Pavlovice" data-en="City of Velké Pavlovice">Město Velké Pavlovice</strong>, 
+                                    <span data-cz="příspěvkové organizace Města, neziskové subjekty a spolky v rámci Města v případě komerčního využití" data-en="city-funded organizations, non-profit entities, and local associations in case of commercial use">příspěvkové organizace Města, neziskové subjekty a spolky v rámci Města v případě komerčního využití</span>
+                                </td>
+                                <td data-cz="4 000 Kč / den" data-en="4,000 CZK / day">4 000 Kč / den</td>
+                                <td data-cz="dle skutečné spotřeby" data-en="according to actual consumption">dle skutečné spotřeby</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong data-cz="Charitativní akce" data-en="Charity events">Charitativní akce</strong> 
+                                    <span data-cz="k dobročinným účelům" data-en="for charitable purposes">k dobročinným účelům</span>
+                                </td>
+                                <td data-cz="4 000 Kč / den" data-en="4,000 CZK / day">4 000 Kč / den</td>
+                                <td data-cz="dle skutečné spotřeby" data-en="according to actual consumption">dle skutečné spotřeby</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong data-cz="Občané Města VP" data-en="Citizens of Velké Pavlovice">Občané Města VP</strong> 
+                                    <span data-cz="k nekomerčním účelům (svatba, narozeniny)" data-en="for non-commercial purposes (wedding, birthday)">k nekomerčním účelům (svatba, narozeniny)</span>
+                                </td>
+                                <td data-cz="10 000 Kč / den" data-en="10,000 CZK / day">10 000 Kč / den</td>
+                                <td data-cz="dle skutečné spotřeby" data-en="according to actual consumption">dle skutečné spotřeby</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong data-cz="Ostatní" data-en="Others">Ostatní</strong> 
+                                    <span data-cz="(výše neuvedeno)" data-en="(not listed above)">(výše neuvedeno)</span>
+                                </td>
+                                <td data-cz="15 000 Kč / den" data-en="15,000 CZK / day">15 000 Kč / den</td>
+                                <td data-cz="dle skutečné spotřeby" data-en="according to actual consumption">dle skutečné spotřeby</td>
+                            </tr>
+                            <tr>
+                                <td><strong data-cz="Den navíc" data-en="Extra day">Den navíc</strong></td>
+                                <td data-cz="2 000 Kč / den" data-en="2,000 CZK / day">2 000 Kč / den</td>
+                                <td data-cz="dle skutečné spotřeby" data-en="according to actual consumption">dle skutečné spotřeby</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="grid-2 mb-4">
+                <div class="price-box">
+                    <h3 data-cz="Úklid sokolovny" data-en="Sokol Hall Cleaning">Úklid sokolovny</h3>
+                    <p class="small-text mb-3" data-cz="Nájemce objekt předává ve stavu, v jakém byl předán, po hrubém úklidu, bez umytí a vysátí." data-en="The tenant hands over the building in the state it was received, after basic cleaning, without washing or vacuuming.">
+                        Nájemce objekt předává ve stavu, v jakém byl předán, po hrubém úklidu, bez umytí a vysátí.
+                    </p>
+                    <table class="price-table">
+                        <tr>
+                            <td><strong data-cz="Akce typu divadlo, koncert, seminář" data-en="Events like theater, concert, seminar">Akce typu divadlo, koncert, seminář</strong></td>
+                            <td>2 000 Kč</td>
+                        </tr>
+                        <tr>
+                            <td><strong data-cz="Ostatní akce" data-en="Other events">Ostatní akce</strong></td>
+                            <td>4 000 Kč</td>
+                        </tr>
+                    </table>
+
+                    <h3 class="mt-4" data-cz="Využití výčepního zařízení" data-en="Beer Tap Equipment Usage">Využití výčepního zařízení</h3>
+                    <table class="price-table">
+                        <tr>
+                            <td><strong data-cz="Den akce" data-en="Event day">Den akce</strong></td>
+                            <td data-cz="1 500 Kč (vč. biogon, narážeč)" data-en="1,500 CZK (incl. gas & coupler)">1 500 Kč (vč. biogon, narážeč)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="price-box">
+                    <h3 data-cz="V ceně nájmu je zahrnuto:" data-en="Rental Price Includes:">V ceně nájmu je zahrnuto:</h3>
+                    <ul class="check-list">
+                        <li data-cz="pronájem celého areálu sokolovny s předáním objektu den před konáním akce a vrácením objektu den po uskutečnění akce; v případě delšího pronájmu se hradí doplatek výše uvedený za každý započatý den" data-en="rental of the entire Sokol hall premises with handover the day before the event and return the day after; for longer rentals, the daily rate above applies for each extra day">
+                            pronájem celého areálu sokolovny s předáním objektu <strong>den před</strong> konáním akce a vrácením objektu <strong>den po</strong> uskutečnění akce; v případě delšího pronájmu se hradí doplatek výše uvedený za každý započatý den
+                        </li>
+                        <li data-cz="vybavení nábytkem, chladícím boxem na víno, chladící vitrínou – lednicí a dalším dle předávacího protokolu, který je součástí smlouvy s výjimkou výčepního zařízení a úklidu" data-en="furniture, wine cooling box, display fridge, and other items per the handover protocol, excluding tap equipment and final cleaning">
+                            vybavení nábytkem, chladícím boxem na víno, chladící vitrínou – lednicí a dalším dle předávacího protokolu, který je součástí smlouvy s výjimkou výčepního zařízení a úklidu
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-content border-top pt-4">
+                <p class="discount-note mb-3" data-cz="Ceny jsou uvedeny včetně DPH." data-en="Prices include VAT.">Ceny jsou uvedeny včetně DPH.</p>
+                <p class="mb-2" data-cz="Podmínkou využití objektu je řádně uzavřená smlouva o nájmu nebytových prostor a vybavení s konkrétními informacemi k dané akci." data-en="A condition for using the facility is a duly concluded lease agreement for non-residential premises and equipment with specific event details.">
+                    Podmínkou využití objektu je řádně uzavřená smlouva o nájmu nebytových prostor a vybavení s konkrétními informacemi k dané akci.
+                </p>
+                <p class="mb-2" data-cz="Všichni nájemci jsou při sjednávání pronájmu výslovně upozorněni na platnost obecně závazné vyhlášky o nočním klidu. Jsou povinni tuto vyhlášku plně respektovat a zajistit, aby během celého průběhu akce nebyla narušena. Nájemci rovněž odpovídají za to, že všichni přítomní hosté budou o těchto pravidlech informováni a budou je dodržovat." data-en="All tenants are explicitly notified upon agreement of the valid night-time quiet hours regulation. They are required to respect this regulation fully and ensure no disturbance occurs. Tenants are also responsible for informing all guests.">
+                    Všichni nájemci jsou při sjednávání pronájmu výslovně upozorněni na platnost obecně závazné <strong>vyhlášky o nočním klidu</strong>. Jsou povinni tuto vyhlášku plně respektovat a zajistit, aby během celého průběhu akce nebyla narušena. Nájemci rovněž odpovídají za to, že všichni přítomní hosté budou o těchto pravidlech informováni a budou je dodržovat.
+                </p>
+                <p data-cz="Kromě dodržování nočního klidu je nezbytné striktně respektovat PBŘ – maximální povolený počet návštěvníků v objektu. V objektu je zakázáno pořádání diskoték. Překročení této kapacity je zakázáno. Nájemci rovněž odpovídají za to, že všichni přítomní hosté budou o těchto pravidlech informováni a budou je dodržovat." data-en="In addition to quiet hours, Fire Safety Regulations must be strictly observed, including maximum capacity. Discos are strictly forbidden in the facility. Exceeding capacity is prohibited. Tenants ensure all guests comply with these rules.">
+                    Kromě dodržování nočního klidu je nezbytné striktně respektovat PBŘ – maximální povolený počet návštěvníků v objektu. V objektu je <strong>zakázáno pořádání diskoték</strong>. Překročení této kapacity je zakázáno. Nájemci rovněž odpovídají za to, že všichni přítomní hosté budou o těchto pravidlech informováni a budou je dodržovat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="section">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2 data-cz="Kontaktujte nás" data-en="Contact Us">Kontaktujte nás</h2>
+                <p data-cz="Rádi vám zodpovíme dotazy ohledně ubytování, programů i pronájmů." data-en="We will gladly answer your questions regarding stays, programs, or venue rentals.">Rádi vám zodpovíme dotazy ohledně ubytování, programů i pronájmů.</p>
+                
+                <ul class="contact-list">
+                    <li>📍 <strong>Ekocentrum Trkmanka:</strong> Nádražní 1/1, 691 06 Velké Pavlovice</li>
+                    <li>📍 <strong>Sokolovna:</strong> Hlavní 583/1, 691 06 Velké Pavlovice</li>
+                    <li>📞 <strong data-cz="Telefon:" data-en="Phone:">Telefon:</strong> +420 519 325 313 / +420 777 736 411</li>
+                    <li>✉️ <strong>E-mail:</strong> info@ekocentrum-trkmanka.com</li>
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/Ekocentrum.Trkmanka" target="_blank" rel="noopener noreferrer" class="social-link facebook-link" aria-label="Facebook Ekocentrum Trkmanka">
+                            <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"/>
+                            </svg>
+                            <span>Sledujte nás na Facebooku</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="map-container mt-4">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.0167680709797!2d16.8191667!3d48.89601759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712d1181593885d%3A0x982dc4bf58cd5979!2zTsOhZHJhxb5uw60gMS8xLCA2OTEgMDYgVmVsa8OpIFBhdmxvdmljZQ!5e0!3m2!1scs!2scz!4v1790163943823!5m2!1scs!2scz" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+
+            </div>
+            <div class="contact-box">
+                <h3 data-cz="Poptávkový formulář" data-en="Inquiry Form">Poptávkový formulář</h3>
+                <form id="contactForm" onsubmit="event.preventDefault(); alert('Děkujeme, zpráva byla odeslána!');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Jméno a příjmení / Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Vaše přání nebo dotaz / Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100" data-cz="Odeslat poptávku" data-en="Send Inquiry">Odeslat poptávku</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p data-cz="&copy; 2026 Ekocentrum Trkmanka, příspěvková organizace. Všechna práva vyhrazena." data-en="&copy; 2026 Ekocentrum Trkmanka, allowance organization. All rights reserved.">&copy; 2026 Ekocentrum Trkmanka, příspěvková organizace. Všechna práva vyhrazena.</p>
+            <p class="mt-2"><a href="privacy.html" class="footer-link" data-cz="Ochrana osobních údajů" data-en="Privacy Policy">Ochrana osobních údajů</a></p>
+        </div>
+    </footer>
+
+    <!-- MODAL GALERIE -->
+    <div id="galleryModal" class="modal" onclick="closeGallery()">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 id="modalTitle">Fotogalerie pokoje</h3>
+            <div class="main-image-container">
+                <img id="mainGalleryImg" src="" alt="Hlavní fotografie pokoje" class="main-gallery-img">
+            </div>
+            <div id="modalThumbnails" class="thumbnails-row"></div>
+        </div>
+    </div>
+
+    <!-- MODAL DETAILU AKTIVITY -->
+    <div id="infoModal" class="modal" onclick="closeInfoModal()">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content info-modal-box" onclick="event.stopPropagation()">
+            <h3 id="infoModalTitle">Detail aktivity</h3>
+            <div id="infoModalBody" class="info-modal-body"></div>
+        </div>
+    </div>
+
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <p data-cz="Tento web neukládá žádné informace pro třetí strany. Pro správné fungování webu ukládáme pouze vaše nastavení jazyka a barevného motivu (LocalStorage)." 
+            data-en="This website does not store any third-party information. We only store your language and color theme preferences in LocalStorage for basic functionality.">
+                Tento web neukládá žádné informace pro třetí strany. Pro správné fungování webu ukládáme pouze vaše nastavení jazyka a barevného motivu (LocalStorage).
+            </p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn btn-sm btn-primary" data-cz="Souhlasím" data-en="Accept">Souhlasím</button>
+                <button id="cookieDecline" class="btn btn-sm btn-outline" data-cz="Nesouhlasím" data-en="Decline">Nesouhlasím</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografie | Ekocentrum Trkmanka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVIGACE -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand-logo">
+                <span class="logo-icon">🌿</span>
+                <span class="logo-text">Ekocentrum <strong>Trkmanka</strong></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <!-- ROZBALOVACÍ MENU - VZDĚLÁVÁNÍ -->
+                <div class="dropdown">
+                    <a href="index.html#vzdelavani" class="dropdown-toggle" data-cz="Vzdělávání ▾" data-en="Education ▾">Vzdělávání ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#enviromentalni-program" data-cz="Enviromentální program" data-en="Environmental Program">Enviromentální program</a>
+                        <a href="index.html#skola_v_prirode" data-cz="Škola v přírodě" data-en="Outdoor school trip">Škola v přírodě</a>
+                        <a href="index.html#primestske-tabory" data-cz="Příměstský tábor" data-en="Day camp">Příměstský tábor</a>
+                    </div>
+                </div>
+                <a href="index.html#ubytovani" data-cz="Ubytování" data-en="Accommodation">Ubytování</a>
+                <a href="index.html#pronajem" data-cz="Pronájem" data-en="Rental">Pronájem</a>
+                <a href="index.html#volnocasove-aktivity" data-cz="Volnočasové aktivity" data-en="Leisure Activities">Volnočasové aktivity</a>
+                <a href="index.html#sokolovna" data-cz="Sokolovna" data-en="Sokol Hall">Sokolovna</a>
+                
+                <!-- ROZBALOVACÍ MENU - FOTOGRAFIE -->
+                <div class="dropdown active">
+                    <a href="fotografie.html" class="dropdown-toggle active" data-cz="Fotografie ▾" data-en="Images ▾">Fotografie ▾</a>
+                    <div class="dropdown-menu">
+                        <a href="#foto-ekocentrum" data-cz="Ekocentrum" data-en="Eco-center">Ekocentrum</a>
+                        <a href="foto_ubytovani.html" data-cz="Ubytování" data-en="Accommodation">Ubytování</a>
+                        <a href="#foto-sokolovna" data-cz="Sokolovna" data-en="Sokol Hall">Sokolovna</a>
+                        <a href="#foto-akce" data-cz="Akce a svatby" data-en="Events & Weddings">Akce a svatby</a>
+                    </div>
+                </div>
+
+                <a href="index.html#kontakt" data-cz="Kontakt" data-en="Contact">Kontakt</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-toggle-btn" title="Přepnout tmavý/světlý režim">🌙</button>
+                <div class="lang-switch">
+                    <button id="lang-cz" class="lang-btn active">CZ</button>
+                    <span class="divider">|</span>
+                    <button id="lang-en" class="lang-btn">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEKCE FOTOGRAFIE - ÚVOD -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge" data-cz="Fotogalerie" data-en="Photo Gallery">Fotogalerie</span>
+                <h1>Obrázky jsou ilustrační</h1>
+                <h2 data-cz="Fotografie z Ekocentra a okolí" data-en="Photos from Eco-center and surroundings">Fotografie z Ekocentra a okolí</h2>
+                <p data-cz="Prohlédněte si naše prostory, areál ekocentra, sokolovnu a momentky z proběhlých akcí." data-en="Explore our spaces, the eco-center area, the Sokol hall, and snapshots from past events.">Prohlédněte si naše prostory, areál ekocentra, sokolovnu a momentky z proběhlých akcí.</p>
+            </div>
+
+            <!-- FOTO - EKOCENTRUM -->
+            <div id="foto-ekocentrum" class="mb-5">
+                <h3 class="mb-3" data-cz="🌱 Ekocentrum Trkmanka" data-en="🌱 Eco-center Trkmanka">🌱 Ekocentrum Trkmanka</h3>
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Ekocentrum budova" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Hlavní budova" data-en="Main Building">Hlavní budova</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Pohled na hlavní sídlo ekocentra v obklopení zeleně." data-en="View of the main headquarters surrounded by greenery.">Pohled na hlavní sídlo ekocentra v obklopení zeleně.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80" alt="Učebna a prostory" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Vnitřní prostory a učebny" data-en="Interior spaces and classrooms">Vnitřní prostory a učebny</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Moderně vybavené učebny pro výukové programy." data-en="Modernly equipped classrooms for educational programs.">Moderně vybavené učebny pro výukové programy.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Zahrada a okolí" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Zahrada a venkovní areál" data-en="Garden and outdoor area">Zahrada a venkovní areál</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Prostoru pro venkovní aktivity a environmentální výuku." data-en="Space for outdoor activities and environmental education.">Prostoru pro venkovní aktivity a environmentální výuku.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOTO - SOKOLOVNA -->
+            <div id="foto-sokolovna" class="section bg-light" style="border-radius: var(--radius); padding: 40px 20px; margin-top: 40px;">
+                <h3 class="mb-3" data-cz="🏛️ Sokolovna Velké Pavlovice" data-en="🏛️ Sokol Hall Velké Pavlovice">🏛️ Sokolovna Velké Pavlovice</h3>
+                <div class="grid-2">
+                    <div class="feature-card">
+                        <div class="card-img-wrapper" style="height: 280px;">
+                            <img src="images/sokolovna-budova.webp" alt="Sokolovna budova" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Exteriér sokolovny" data-en="Sokol Hall Exterior">Exteriér sokolovny</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Budova sokolovny na adrese Hlavní 583/1." data-en="Sokol hall building at Hlavní 583/1.">Budova sokolovny na adrese Hlavní 583/1.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrapper" style="height: 280px;">
+                            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80" alt="Sál sokolovny" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Velký sál a společenské prostory" data-en="Main hall and social spaces">Velký sál a společenské prostory</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Vhodné pro svatby, plesy, oslavy i semináře." data-en="Suitable for weddings, balls, celebrations, and seminars.">Vhodné pro svatby, plesy, oslavy i semináře.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOTO - AKCE A SVATBY -->
+            <div id="foto-akce" class="mt-5 pt-4">
+                <h3 class="mb-3" data-cz="🎉 Akce, svatby a tábory" data-en="🎉 Events, weddings and camps">🎉 Akce, svatby a tábory</h3>
+                <div class="grid-3">
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80" alt="Příměstské tábory" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Příměstské tábory" data-en="Day camps">Příměstské tábory</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Zážitky dětí z letních táborů v ekocentru." data-en="Children's experiences from summer camps in the eco-center.">Zážitky dětí z letních táborů v ekocentru.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Svatby" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Svatby a rodinné oslavy" data-en="Weddings and family celebrations">Svatby a rodinné oslavy</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Nezapomenutelné chvíle v našich prostorách." data-en="Unforgettable moments in our spaces.">Nezapomenutelné chvíle v našich prostorách.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800&q=80" alt="Semináře a konference" class="card-img">
+                        </div>
+                        <h3 class="h5" data-cz="Semináře a konference" data-en="Seminars and conferences">Semináře a konference</h3>
+                        <p class="small-text mt-2 px-3" data-cz="Firemní akce a vzdělávací kurzy." data-en="Corporate events and educational courses.">Firemní akce a vzdělávací kurzy.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PATIČKA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p data-cz="&copy; 2026 Ekocentrum Trkmanka, příspěvková organizace. Všechna práva vyhrazena." data-en="&copy; 2026 Ekocentrum Trkmanka, allowance organization. All rights reserved.">&copy; 2026 Ekocentrum Trkmanka, příspěvková organizace. Všechna práva vyhrazena.</p>
+            <p class="mt-2"><a href="privacy.html" class="footer-link" data-cz="Ochrana osobních údajů" data-en="Privacy Policy">Ochrana osobních údajů</a></p>
+        </div>
+    </footer>
+
+    <!-- COOKIE BANNER -->
+    <div id="cookieBanner" class="cookie-banner">
+        <div class="cookie-content">
+            <p data-cz="Tento web neukládá žádné informace pro třetí strany. Pro správné fungování webu ukládáme pouze vaše nastavení jazyka a barevného motivu (LocalStorage)." 
+            data-en="This website does not store any third-party information. We only store your language and color theme preferences in LocalStorage for basic functionality.">
+                Tento web neukládá žádné informace pro třetí strany. Pro správné fungování webu ukládáme pouze vaše nastavení jazyka a barevného motivu (LocalStorage).
+            </p>
+            <div class="cookie-buttons">
+                <button id="cookieAccept" class="btn btn-sm btn-primary" data-cz="Souhlasím" data-en="Accept">Souhlasím</button>
+                <button id="cookieDecline" class="btn btn-sm btn-outline" data-cz="Nesouhlasím" data-en="Decline">Nesouhlasím</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
